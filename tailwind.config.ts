@@ -19,6 +19,8 @@ const config: Config = {
         "grad-start": "rgba(14, 14, 41, 1)",
         "grad-end": "rgba(103, 34, 96, 0)",
         "add-border": "rgba(73, 61, 84, 1)",
+        "add-grad-start": "rgba(39, 30, 48, 1)",
+        "add-grad-end": "rgba(56, 43, 68, 0.85)",
       },
     },
   },

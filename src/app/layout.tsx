@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import { Julius_Sans_One } from "next/font/google";
+import localFont from "next/font/local";
+// import { Julius_Sans_One } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar/page";
 
-const julius = Julius_Sans_One({ weight: "400", subsets: ["latin"] });
+const julius = localFont({ src: "./fonts/JuliusSansOne-Regular.ttf" });
 
 export const metadata: Metadata = {
   title: "Income Management",
