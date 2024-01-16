@@ -1,15 +1,3 @@
-// const totalProps = {
-//     monthUSD,
-//     monthGEL,
-//     annualUSD,
-//     annualGEL,
-//   }: {
-//     monthUSD: number;
-//     monthGEL: number;
-//     annualUSD: number;
-//     annualGEL: number;
-//   }
-
 import Field from "@/components/UI/Field/page";
 
 const Total = () => {

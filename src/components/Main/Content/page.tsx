@@ -1,4 +1,3 @@
-import Total from "../Total/page";
 import Income from "./Income/page";
 import { incomeData } from "@/app/data";
 
@@ -24,7 +23,6 @@ const ContentCard = () => {
           );
         })}
       </div>
-      <Total />
     </div>
   );
 };

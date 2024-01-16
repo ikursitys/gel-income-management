@@ -1,7 +1,3 @@
-const countGEL = (incomeUSD: number, rate: number) => {
-  return incomeUSD * rate;
-};
-
 export const incomeData = [
   { id: 1, incomeDate: new Date(), incomeUSD: 10000, rate: 2.6 },
   {
